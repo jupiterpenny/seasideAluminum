@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="animate.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <title> Seaside Aluminum Products Showcase </title>
+    <link rel="icon"
+          type="image/png"
+          href="./images/logos/ssaLogo.ico"
+    />
+
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="textillate-master/assets/jquery.lettering.js" rel="stylesheet"></script>
+    <script src="textillate-master/jquery.textillate.js"></script>
+    <link href="textillate-master/assets/animate.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+
+    <script src="waypoint/src/waypoint.js" rel="stylesheet"></script>
+
+    <script type="text/javascript"  src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+
+    <script type="text/javascript" src="functions.js"></script>
+
+    <script type="text/javascript" src="http://yourjavascript.com/21051171187/jquery-touchswipe-min.js"></script>
+    <script type="text/javascript" src="http://yourjavascript.com/71712155041/responsive-bootstrap-carousel.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Seaside Aluminuim, your honest, reliable, and affordable solution to custom aluminum fabrication.  Providing you with quality construction and customized railing service."/>
+    <meta name="keywords" content="Seaside Aluminum,Aluminum Railing,
+custom Aluminum fabrication,Aluminum cutting, Aluminum framing, Aluminum welding, Aluminum rails,pool rails,pool railing,bridge railing,balcony railing,quality railing,custom railing"/>
+
+
+
+
+    <style>
+
+        #colorButton{
+            animation: bounce 6s infinite;
+        }
+
+        #brand2{
+            box-shadow: 10px 10px 5px #888888;
+        }
+
+        #logoUp{
+            animation-delay: 2s;
+        }
+
+
+        
+        .team_columns_carousel_control_left,
+        .team_columns_carousel_control_right {
+            top: 26px;
+            z-index: 2;
+            opacity: 1;
+            width: 35px;
+            height: 37px;
+            border: 0;
+            text-shadow: none;
+            text-align: center;
+            padding-bottom: 50px;
+            -webkit-transition: all ease-in-out .3s;
+            transition: all ease-in-out .3s;
+              
+        }
+        .team_columns_carousel_control_icons {
+            line-height: 35px;
+            font-size: 35px!important;
+            font-weight: normal!important;
+            margin-top:8px;
+          
+        }
+        .team_columns_carousel_control_left {
+            left: 26px!important;
+              
+        }
+        .team_columns_carousel_control_right {
+            left: 63px!;
+            
+        }
+        .adv_left {
+            left: 41px!important;
+        
+        }
+        .adv_right {
+            left: 78px!important;
+       
+        }
+      .team_columns_item_image {
+    padding-top: 60px;
+    padding-bottom: 25px
+}
+.team_columns_item_image img {
+    width: 100%;
+    -webkit-filter: grayscale(70%);
+    -moz-filter: grayscale(70%);
+    -ms-filter: grayscale(70%);
+    -o-filter: grayscale(70%);
+    filter: grayscale(70%);
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s
+}
+.team_columns_item_image:hover img {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%)
+}
+.team_columns_item_caption {
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 30px
+}
+.team_columns_item_caption>hr {
+    width: 15%
+}
+.team_columns_item_caption h4 {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif
+}
+.team_columns_item_caption h5 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif
+}
+.team_columns_item_caption p {
+    font-weight: 400;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif
+}
+.team_columns_item_caption p a,
+.team_columns_item_caption p a:visited {
+    text-decoration: none;
+    -webkit-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s
+}
+.team_columns_item_social a,
+.team_columns_item_social a:visited {
+    width: 25px;
+    float: left;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    margin-right: 2px;
+    text-decoration: none;
+    -webkit-transition: background ease-in-out .3s;
+    transition: background ease-in-out .3s
+}
+@media(min-width:768px) and (max-width:789px) {
+    .adv_team_columns_item_social a, .adv_team_columns_item_social a:visited {
+        margin-right: 0
+    }
+}
+.team_columns_carousel_wrapper {
+    background: #fff
+}
+.team_columns_carousel_control_left,
+.team_columns_carousel_control_left:hover,
+.team_columns_carousel_control_left:active,
+.team_columns_carousel_control_left:focus,
+.team_columns_carousel_control_right,
+.team_columns_carousel_control_right:hover,
+.team_columns_carousel_control_right:active,
+.team_columns_carousel_control_right:focus {
+    color: #fff;
+    background: #9fd4d5!important
+}
+.team_columns_item_caption {
+    color: #fff;
+    background: #162261;
+}
+.team_columns_item_caption>hr {
+    border-top: 2px solid #9fd4d5;
+}
+.team_columns_item_caption p a,
+.team_columns_item_caption p a:visited {
+    color: #162261;
+}
+.team_columns_item_caption p a:hover,
+.team_columns_item_caption p a:active {
+    color: #162261;
+}
+.team_columns_item_social a,
+.team_columns_item_social a:visited {
+    color: #162261;
+    background: #9fd4d5;
+}
+.team_columns_item_social a:hover,
+.team_columns_item_social a:active {
+    background: #9fd4d5;
+}
+.four_shows_one_move .cloneditem-1,
+.four_shows_one_move .cloneditem-2,
+.four_shows_one_move .cloneditem-3 {
+    display: none
+}
+@media all and (min-width: 768px) {
+    .four_shows_one_move .carousel-inner>.active.left,
+    .four_shows_one_move .carousel-inner>.prev {
+        left: -50%
+    }
+    .four_shows_one_move .carousel-inner>.active.right,
+    .four_shows_one_move .carousel-inner>.next {
+        left: 50%
+    }
+    .four_shows_one_move .carousel-inner>.left,
+    .four_shows_one_move .carousel-inner>.prev.right,
+    .four_shows_one_move .carousel-inner>.active {
+        left: 0
+    }
+    .four_shows_one_move .carousel-inner .cloneditem-1 {
+        display: block
+    }
+}
+@media all and (min-width: 768px) and (transform-3d),
+all and (min-width: 768px) and (-webkit-transform-3d) {
+    .four_shows_one_move .carousel-inner>.item.active.right,
+    .four_shows_one_move .carousel-inner>.item.next {
+        -webkit-transform: translate3d(50%, 0, 0);
+        transform: translate3d(50%, 0, 0);
+        left: 0
+    }
+    .four_shows_one_move .carousel-inner>.item.active.left,
+    .four_shows_one_move .carousel-inner>.item.prev {
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+        left: 0
+    }
+    .four_shows_one_move .carousel-inner>.item.left,
+    .four_shows_one_move .carousel-inner>.item.prev.right,
+    .four_shows_one_move .carousel-inner>.item.active {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        left: 0
+    }
+}
+@media all and (min-width: 992px) {
+    .four_shows_one_move .carousel-inner>.active.left,
+    .four_shows_one_move .carousel-inner>.prev {
+        left: -25%
+    }
+    .four_shows_one_move .carousel-inner>.active.right,
+    .four_shows_one_move .carousel-inner>.next {
+        left: 25%
+    }
+    .four_shows_one_move .carousel-inner>.left,
+    .four_shows_one_move .carousel-inner>.prev.right,
+    .four_shows_one_move .carousel-inner>.active {
+        left: 0
+    }
+    .four_shows_one_move .carousel-inner .cloneditem-2,
+    .four_shows_one_move .carousel-inner .cloneditem-3 {
+        display: block
+    }
+}
+@media all and (min-width: 992px) and (transform-3d),
+all and (min-width: 992px) and (-webkit-transform-3d) {
+    .four_shows_one_move .carousel-inner>.item.active.right,
+    .four_shows_one_move .carousel-inner>.item.next {
+        -webkit-transform: translate3d(25%, 0, 0);
+        transform: translate3d(25%, 0, 0);
+        left: 0
+    }
+    .four_shows_one_move .carousel-inner>.item.active.left,
+    .four_shows_one_move .carousel-inner>.item.prev {
+        -webkit-transform: translate3d(-25%, 0, 0);
+        transform: translate3d(-25%, 0, 0);
+        left: 0
+    }
+    .four_shows_one_move .carousel-inner>.item.left,
+    .four_shows_one_move .carousel-inner>.item.prev.right,
+    .four_shows_one_move .carousel-inner>.item.active {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        left: 0
+    }
+}
+        .actioning {
+            overflow: visible;
+            padding: 0px;
+            width: 100%;
+            background: #9fd4d5;
+            position: relative;
+
+        }
+
+        .actioning .left-text {
+            text-align:center;
+            padding: 70px 0;
+            padding-right: 60px;
+            width: 50%;
+        }
+
+        .actioning .left-text h4 {
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .actioning .left-text p {
+            padding-top: 20px;
+        }
+
+        .actioning .left-text em {
+            color: #fefefe;
+        }
+
+        .actioning .right-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background-size: cover;
+            background-position: 50% 0;
+            background-repeat: no-repeat;
+            background-image: url(./images/showcase/longBuilding.JPG);
+
+        }
+
+        .actioningLeft {
+            overflow: visible;
+            padding: 0px;
+            width: 100%;
+            background: #9fd4d5;
+            position: relative;
+
+        }
+
+        .actioningLeft .left-text {
+            text-align:center;
+            padding: 70px 0;
+            padding-left: 60px;
+            width: 50%;
+        }
+
+        .actioningLeft .left-text h4 {
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .actioningLeft .left-text p {
+            padding-top: 20px;
+        }
+
+        .actioningLeft .left-text em {
+            color: #fefefe;
+        }
+
+        .actioningLeft .left-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background-size: cover;
+            background-position: 50% 0;
+            background-repeat: no-repeat;
+            background-image: url(./images/showcase/redBuilding.JPG);
+
+        }
+        
+#gal .black_overlay {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+#gal .white_content {
+  display: none;
+  position: absolute;
+  
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  border: 16px solid #162261;;
+  background-color: white;
+  z-index: 1002;
+  overflow: auto;
+}
+
+
+    </style>
+</head>
+
+
+<body style="padding-top: 10px;">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<nav class="navbar navbar-default navbar-doublerow navbar-trans navbar-fixed-top affix">
+    <!-- top nav -->
+    <nav class="navbar navbar-top hidden-xs">
+        <div class="container">
+            <!-- left nav top -->
+            <ul class="nav navbar-nav pull-left">
+                <li><a href="#"><span><div class="fb-like" data-href="https://www.facebook.com/DaytonaSeasideAluminum/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div></span></a></li>
+                <li><a href="https://www.google.com/maps/uv?hl=en&pb=!1s0x88e6dbccfb994e2d:0x6321442b6ae07ab1!2m22!2m2!1i80!2i80!3m1!2i20!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e5!2m2!1m1!1e4!2m2!1m1!1e6!3m1!7e115!4shttp://seasidealuminum.com/projects/custom-rail-manufacture-and-intallation/!5sseaside+aluminum+-+Google+Search&imagekey=!1e1!2shttp://seasidealuminum.com/wp-content/uploads/2014/03/298763_425210617516028_672457042_n.jpg&sa=X&ved=0ahUKEwi0s8uKs5fXAhXSZiYKHX4TDnkQoioIkwEwDw"><span style="font-size: 25px;" class="glyphicon glyphicon-globe"></span></a></li>
+                <li><a href="#contactSSA"><span style="font-size: 15px; padding-left: 25px;">QUESTIONS? CALL: <b>386-252-4940</b></span></a></li>
+            </ul>
+
+            <!-- right nav top -->
+            <ul class="nav navbar-nav pull-right">
+
+                <li><a href="#contactSSA" style="font-size: 15px;" >Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="dividline light-grey"></div>
+    </nav>
+    <!-- down nav -->
+    <nav class="navbar navbar-down affix" style="background-color: #162260; width: 100%;">
+        <div class="container">
+            <div class="flex-container">
+                <div class="navbar-header flex-item">
+                    <div style="padding-top: 35px;">
+                        <div class="navbar-brand grow" id="brand" href="#" style="font-family: 'Dancing Script', cursive; color: #9fd4d5;"><img src="./images/logos/ssaLogo.png" style="width: 150px; height: 100px;"/></div>
+                    </div>
+                </div>
+                <ul class="nav navbar-nav flex-item hidden-xs">
+                    <li><a href="#projects">Projects </a></li>
+                    <li><a href="#">Custom Railing </a></li>
+                    <li><a href="#contactSSA">Meet the Team</a></li>
+                </ul>
+                <ul class="nav navbar-nav flex-item hidden-xs pull-right">
+                    <li><a href="#" class="animated flash" id="quoteFlash" style="color: #9fd4d5;">Get a quote!</a></li>
+                </ul>
+                <!-- dropdown only moblie -->
+                <div class="dropdown visible-xs pull-right">
+                    <button class="btn btn-default dropdown-toggle " type="button" id="dropdownmenu" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-align-justify"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#">Custom Railing</a></li>
+                        <li><a href="#">Meet the Team</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#contactSSA">contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</nav>
+
+<div class="container-fluid" style="padding-top: 200px; text-align:center;">
+    <section id="about">
+
+        <h1  class="animated bounceIn" style="text-align: center; font-size: 35px;">Customization is what we do!</h1>
+                       <br>
+        <br>
+                        <p id="aboutP" style="color:darkgrey; font-size: 20px; text-align: center">All Seaside aluminum products, Aluminum Rails, Aluminum Balconies, Aluminum Stairs are of the highest quality.
+
+                            Every joint is welded, nothing is screwed. There are no rivets, no loosening.
+
+                            We do our own Radius Bending and Custom bending.
+
+                            We do our own aluminum Welding.
+
+                            All Seaside aluminum or steel rails, stairs, railings, awnings and gates are welded for longevity.
+
+                            Warranties up to 20 years.
+
+                            Seaside aluminum offers warranties on our alluminum rails, our aluminum balconies and all our aluminum and steel products up to 20 years. </p>
+
+    </section>
+
+</div>
+<section id="gal" style="max-height:900px;">
+<div style="padding-bottom: 50px">
+     <a href="colorChart.html"><button id="colorButton" class="animated slideOutDown btn btn-secondary btn-lg" style="font-size: 20px; float: right; background-color: transparent; border: 2px solid #162261" type="button">Color Chart</button></a>
+</div>
+<div class="container">
+ 
+   
+    <div class="row">
+        <div id="adv_team_4_columns_carousel" class="carousel slide four_shows_one_move team_columns_carousel_wrapper" data-ride="carousel" data-interval="2000" data-pause="hover">
+            <!--========= Wrapper for slides =========-->
+            <div class="carousel-inner" role="listbox">
+                 <div id="light" class="white_content" style="color:white; font-size: 35px; font-family:cursive;">Seaside Aluminum, we do it all! <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" style="font-size: 35px; color:white; float:right;">x</a>
+                 <div id="images"></div>
+                 </div>
+                 <div id="fade" class="black_overlay"></div>
+                <!--========= 1st slide =========-->
+                <div class="item active">
+                    <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
+                        <img src="./images/products/2x3.JPG" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>3 line</h4>
+                            <a onclick="firstImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>spiked fencing</h5>
+                        </div>
+                    </div>
+                
+                   <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
+                        <img src="./images/products/blackOneLine.jpg" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>2 line </h4>
+                                  <a onclick="secondImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>garden fencing</h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
+                        <img src="./images/products/frame.jpg" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>Framing</h4>
+                                <a onclick="thirdImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>custom piece</h5>
+                           </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
+                        <img src="./images/products/ivoryOneLineWobble.jpg" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>2 Line</h4>
+                                  <a onclick="fourthImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>Wave railing</h5>
+                        </div>
+                    </div>
+                </div>
+                <!--========= 2nd slide =========-->
+                <div class="item active">
+                    <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
+                        <img src="./images/products/smallWhite.jpg" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>2 line</h4>
+                           <a onclick="fifthImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>garden fencing</h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
+                        <img src="./images/products/spades.JPG" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>3 line </h4>
+                             <a onclick="sixthImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>decor fencing</h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
+                        <img src="./images/products/swirlLine.JPG" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>custom trim</h4>
+                            <a onclick="seventhImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>wave</h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
+                        <img src="./images/products/vent.JPG" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>7 pane </h4>
+                            <a onclick="eightImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>venting</h5>
+                        </div>
+                    </div>
+                </div>
+                <!--========= 3rd slide =========-->
+                <div class="item">
+                    <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
+                        <img src="./images/products/whiteOneLine.jpg" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>2 line</h4>
+                                <a onclick="ninthImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>balcony railing</h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
+                        <img src="./images/products/wooven.jpg" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>Wooven</h4>
+                           <a onclick="tenthImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>Window shutter</h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
+                        <img src="./images/products/largeVent.gif" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>Industrial</h4>
+                                 <a onclick="eleventhImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>Venting</h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
+                        <img src="./images/products/2x3.JPG" style="height: 150px;" alt="slider 02">
+                        <div class="team_columns_item_caption">
+                            <h4>3 line</h4>
+                               <a onclick="twelthImage();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <h5>spiked fencing</h5>
+                        </div>
+                    </div>
+                </div>
+
+
+            <!--======= Navigation Buttons =========-->
+            <!--======= Left Button =========-->
+            <a class="left carousel-control team_columns_carousel_control_left adv_left" href="#adv_team_4_columns_carousel" role="button" data-slide="prev">
+                <span class="fa fa-angle-left team_columns_carousel_control_icons" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <!--======= Right Button =========-->
+            <a class="right carousel-control team_columns_carousel_control_right adv_right" href="#adv_team_4_columns_carousel" role="button" data-slide="next">
+                <span class="fa fa-angle-right team_columns_carousel_control_icons" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            
+        </div>
+    </div>
+
+
+</section>
+
+ 
+
+
+
+
+<section class="actioning" style="background-color: #9fd4d5;">
+    <div class="container-fluid">
+        <div class="left-text hidden-xs">
+
+            <p class="title" style="font-size: 20px;"><em class="pp">We provide custom casting  </em><br><br>We create custom Aluminum Castings, and Steel Castings. If you have a casting you would like created, contact us and we can make it for you.
+
+                We offer Free or No charge bids on any aluminum rail project.
+
+                Give us the opportunity to bid on your job.
+
+                Send us the disk of your plans. We will read and submit bid.</p>
+
+            <div class="right-image hidden-xs"></div>
+<script>
+    $('.pp').textillate({
+        loop: true,
+        in: {
+            effect: 'fadeIn',
+            delayScale: 1,
+            delay: 150,
+            shuffle: true
+        },
+        out: {
+            effect: 'fadeOut'
+        }
+    });
+</script>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="actioningLeft" style="background-color: #9fd4d5;">
+    <div class="container-fluid">
+        <div class="left-text hidden-xs" style="float:right;">
+           
+
+            <h1 class="tlts" style="font-size: 20px; color: white;">
+	<ul class="texts">
+		<li data-out-effect="fadeOut" data-out-shuffle="true">We do Coating and FinishesL</li>
+		<li data-out-effect="fadeIn">We do Stainless steel Cable</li>
+		<li data-out-effect="fadeIn"> We do Stainless Steel Wire</li>
+	</ul>
+</h1>
+<script>
+            $('.tlt').textillate({
+                out: {
+                    effect: 'rollOut',
+                    delayScale: 1.5,
+                    delay: 50,
+                    sync: false,
+                    shuffle: false,
+                    reverse: false,
+                    callback: function () {
+                    }
+                },
+
+
+            } );
+            
+             $('.tlts').textillate({
+                  loop: true
+                  
+             });
+
+        </script>
+            <br><br>
+            <ul style="font-size:20px;">
+              <li style="list-style:none;">Spray Lat Powder Coat</li>
+                <li style="list-style:none;">Newlar Spray LaY</li>
+                <li style="list-style:none;">Super Durable Spray Lat</li>
+                <li style="list-style:none;">Kynar 500</li>
+
+                <li style="list-style:none;"> Anodizing</li>
+            </ul>
+            <div class="left-image hidden-xs"></div>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+    <h2>Cutting! Framing! Welding! We do it all at Seaside Aluminum</h2>
+    <div style="padding-left: 150px; padding-right: 150px;">
+<hr>
+    </div>
+    <nav class="navbar">
+        <div class="container center">
+            <ul class="nav">
+                <li class="active"><a href="#bootstrapsCarousel">Home </a></li>
+                <li class="active"><a href="#about">About</a></li>
+                <li class="active"><a href="#humanCI">Projects</a></li>
+                <li class="active"><a href="#websystem1">Custom Railing </a></li>
+                <li class="active"><a href="#resources">Free Quote</a></li>
+                <li class="active"><a href="#contact">Contact Us</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+    <section id="gallery">
+        <div class="gallery cf">
+            <div>
+                <img class="img-responsive" src="./images/showcase/inside.JPG" />
+            </div>
+            <div>
+                <img class="img-responsive" src="./images/showcase/waveBuilding.JPG" />
+            </div>
+            <div>
+                <img class="img-responsive" src="./images/showcase/pas.png" />
+            </div>
+            <div>
+                <img class="img-responsive" src="./images/showcase/seaTurtle.png" />
+            </div>
+            <div>
+                <img class="img-responsive" src="./images/showcase/straightBridge.jpg" />
+            </div>
+
+        </div>
+
+    </section>
+    <div class="row">
+        <div style="text-align:center">
+            <div class="col-md-4" style="padding-top: 30px;">
+                <a  target="_blank" title="find us on Facebook" href="https://www.facebook.com/DaytonaSeasideAluminum/"><img id="fb" class="animated flash" alt="find us on facebook" src="//login.create.net/images/icons/user/facebook-c_130x50.png" border=0></a>
+            </div>
+
+            <div class="col-md-8">
+                <p class="footer"> Seaside Aluminum @ 2017 All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--myJquery LightBox Gallery-->
+<script>
+    function firstImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/2x3.JPG')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+    
+     function secondImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/blackOneLine.jpg')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+     function thirdImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/frame.jpg')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+     function fourthImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/ivoryOneLineWobble.jpg')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+      function fifthImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/smallWhite.jpg')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+      function sixthImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/spades.JPG')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+      function seventhImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/swirlLine.JPG')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+      function eightImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/vent.JPG')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+      function ninthImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/whiteOneLine.jpg')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+      function tenthImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/wooven.jpg')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+      function eleventhImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/largeVent.gif')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+      function twelthImage(){
+      document.getElementById('light').style.display='block';
+      document.getElementById('fade').style.display='block'; 
+      document.getElementById('light').style.backgroundImage = "url('./images/products/2x3.JPG')";
+    document.getElementById('light').style.backgroundSize ="cover";
+    }
+</script>
+
+</body>
+</html>
